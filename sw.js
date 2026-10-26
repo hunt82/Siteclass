@@ -1,5 +1,5 @@
 // SiteClass offline cache: the app works with no signal once it has loaded once.
-const CACHE = "siteclass-v2";
+const CACHE = "siteclass-v3";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
